@@ -1,0 +1,83 @@
+header{
+  position: relative;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  position: absolute;
+  font-size: 400%;
+  margin: 0px 0 0 30px;
+  top: 70%;
+  left: 20%;
+}
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  position: absolute;
+  font-size: 200%;
+  margin: 40px 0 0 30px;
+  top: 54%;
+  left: 20%;
+}
+img{
+  width: 100%;
+}
+div{
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.6;
+  margin: 40px 0 0 30px;
+}
+h4{
+  font-family: 'Merriweather', serif;
+  line-height: 0;
+}
+blockquote{
+  background: dimgray;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 25px;
+  width: 100%;
+  margin: 40px 0 0 0px;
+}
+blockquote::before {
+  content: '”';
+  font-size: 60px;
+  font-family: 'Abril Fatface', cursive;
+  justify-content: space-around;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+.nagybetu {
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+}
+ul{
+  list-style-type: square;
+}
+main{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+  margin: 0 0px 6px 0;
+}
+.csik{
+  background: black;
+  height: 4px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 0 40px 0;
+}
